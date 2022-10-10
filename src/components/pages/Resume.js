@@ -1,11 +1,12 @@
 import React from 'react';
+import { ResumePdf } from '../images/index';
 
 export default function Resume() {
     return (
-        <div>
+        <div className='container'>
             <h1>Resume</h1>
             <p>
-                {/* {insert approtriate section here depending on the page} */}
+                <a href={ResumePdf} target='_blank'>Link to Resume</a>
             </p>
             
         </div>
