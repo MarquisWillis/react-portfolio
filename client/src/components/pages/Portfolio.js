@@ -5,9 +5,9 @@ import {
     MusicExplorer,
     HighOnDadJokes,
     EcommerceBackend,
-    ReadmeGenerator,
     WeatherDashboard,
-    TeamProfileGenerator
+    TeamProfileGenerator,
+    ThroneOfGames
 } from '../images/index'
 
 const projectApps = [
@@ -42,13 +42,13 @@ const projectApps = [
     },
 
     {
-        id: 'readme-generator',
-        title: 'README Generator',
-        tech: 'JavaScript, Node, Inquirer',
-        image: ReadmeGenerator,
-        description: 'A local server app that allows developers to quickly generate a quality README',
-        site: 'https://drive.google.com/file/d/124Ok5zn3maRlnL8LtSU4xP89n0lh0COp/view',
-        repo: 'https://github.com/MarquisWillis/readme-generator'
+        id: 'throne-of-games',
+        title: 'Throne of Games',
+        tech: 'Full MERN Stack (MongoDB, Express, React, Node), GraphQL, tailwindcss',
+        image: ThroneOfGames,
+        description: 'A full stack game store where you may select a variety of games to look at',
+        site: 'https://game-store-em.herokuapp.com/',
+        repo: 'https://github.com/emmcewen/ThroneofGames'
     },
 
     {
@@ -74,11 +74,11 @@ const projectApps = [
 
 export default function Portfolio() {
     return (
-        <div className='d-flex justify-content-center align-items-center flex-wrap'>
+        <div className='d-flex justify-content-center align-items-center flex-wrap text-white'>
             <div className='p-2'>
                 <h1>Portfolio</h1>
             </div>
-            <div className='project-card d-inline-flex flex-wrap justify-content-center'>
+            <div className='project-card flex flex-wrap gap-5 m-5'>
                 {console.log(projectApps)}
                 {projectApps.map((projectApp) => {
                     return (<Project

@@ -5,6 +5,7 @@ import ReadmeGenerator from './readme-generator.PNG';
 import WeatherDashboard from './weather-dashboard.PNG';
 import TeamProfileGenerator from './team-profile-generator.PNG';
 import ResumePdf from './resume.pdf';
+import ThroneOfGames from './throne-of-games.png';
 
 export {
     MusicExplorer,
@@ -14,4 +15,5 @@ export {
     WeatherDashboard,
     TeamProfileGenerator,
     ResumePdf,
+    ThroneOfGames,
 }

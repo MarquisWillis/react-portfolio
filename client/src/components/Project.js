@@ -1,35 +1,26 @@
-import React from 'react';
-
+import React from "react";
 
 export default function Project(props) {
-    return (
-        <div className="card col-3 space-around m-4">
-            <div className="bg-image hover-overlay ripple rounded" data-mdb-ripple-color="light">
-                <img src={props.image} className="img-fluid rounded-top" alt={props.description} name={props.id} />
-                <a href="#!">
-                    <div className="mask" style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}></div>
-                </a>
-            </div>
-            <div className="card-body">
-                <h5 className="card-title">{props.title}</h5>
-                <p>{props.description}</p>
-                <p>{props.tech}</p>
-
-
-                <div className='d-flex justify-content-between align-items-end'>
-                    <div >
-                    <a href={props.site} target="_blank" className="btn btn-primary">Deployed Application</a>
-                    </div>
-                    <div >
-                    <a href={props.repo} target="_blank" className="btn btn-primary">Repository</a>
-                    </div>
-                    
-                </div>
-
-
-
-
-            </div>
-        </div>
-    )
+  return (
+    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-gray-600">
+      <img className="w-full h-60" src={props.image} alt="Project" />
+      <div className="px-6 py-4 flex flex-wrap justify-center">
+        <div className="font-bold text-xl mb-2">{props.title}</div>
+        <p className="text-grey-400 text-base">{props.description}</p>
+        <p>Technologies used: {props.tech}</p>
+      </div>
+      <div className="px-6 pt-4 pb-2 flex justify-evenly items-end">
+        <a href={props.site} target="_blank" rel="noreferrer">
+          <span className="inline-block bg-red-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Deployed
+          </span>
+        </a>
+        <a href={props.repo} target="_blank" rel="noreferrer">
+          <span className="inline-block bg-red-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            Repository
+          </span>
+        </a>
+      </div>
+    </div>
+  );
 }
