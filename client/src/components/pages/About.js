@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
     return (
         <div className='container'>
-            <h1 className='text-white'>About Me</h1>
+            <h1 className='text-white flex justify-center mb-5 p-2'>About Me</h1>
             <p className='text-white'>
                 Hello! I am an aspiring full-stack developer, with strong problem solving and adaptability skills. 
                 Finding efficiencies in performance and optimization across the board is something I genuinely love and constantly strive for. 

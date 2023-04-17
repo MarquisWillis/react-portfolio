@@ -78,7 +78,7 @@ export default function Portfolio() {
             <div className='p-2'>
                 <h1>Portfolio</h1>
             </div>
-            <div className='project-card flex flex-wrap gap-5 m-5'>
+            <div className='project-card flex flex-wrap gap-5 m-5 justify-content-center'>
                 {console.log(projectApps)}
                 {projectApps.map((projectApp) => {
                     return (<Project
