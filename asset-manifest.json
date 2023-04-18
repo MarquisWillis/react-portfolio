@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2e2b4647.css",
-    "main.js": "/react-portfolio/static/js/main.b455fc25.js",
+    "main.css": "/react-portfolio/static/css/main.6b8d34f8.css",
+    "main.js": "/react-portfolio/static/js/main.a24f7f95.js",
     "static/media/throne-of-games.png": "/react-portfolio/static/media/throne-of-games.75d2568195b7b14e8c6a.png",
     "static/media/readme-generator.PNG": "/react-portfolio/static/media/readme-generator.b19bd0e22862b2993017.PNG",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.b7d3b888082ab81016b3.pdf",
@@ -11,11 +11,11 @@
     "static/media/team-profile-generator.PNG": "/react-portfolio/static/media/team-profile-generator.70cec38d880304a65793.PNG",
     "static/media/ecommerce-backend.PNG": "/react-portfolio/static/media/ecommerce-backend.2a445243a31ed0bf4a56.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.2e2b4647.css.map": "/react-portfolio/static/css/main.2e2b4647.css.map",
-    "main.b455fc25.js.map": "/react-portfolio/static/js/main.b455fc25.js.map"
+    "main.6b8d34f8.css.map": "/react-portfolio/static/css/main.6b8d34f8.css.map",
+    "main.a24f7f95.js.map": "/react-portfolio/static/js/main.a24f7f95.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e2b4647.css",
-    "static/js/main.b455fc25.js"
+    "static/css/main.6b8d34f8.css",
+    "static/js/main.a24f7f95.js"
   ]
 }
